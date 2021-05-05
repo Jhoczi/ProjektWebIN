@@ -42,7 +42,7 @@ ul
 
 #mainContainer
 {
-    background-image: url('/img/bgS.jpg');
+    background-image: url('img/bgS.jpg');
     /* background-repeat: no-repeat; */
     padding-top:0px;
     padding-bottom:0px;
