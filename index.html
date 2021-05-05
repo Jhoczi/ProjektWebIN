@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang = "pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sieci Komputerowe</title>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link href="/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/mainstyle.css">
+
+    <script defer src="/fontawesome/js/brands.js"></script>
+    <script defer src="/fontawesome/js/solid.js"></script>
+    <script defer src="/fontawesome/js/fontawesome.js"></script>
+    <script defer src="/fontawesome/js/all.js"></script>
+</head>
+<body>
+    <div id="mainContainer">
+        <header id="mainHeader">
+            <nav class="navbar navbar-expand-lg p-3 mainHeaderSection">   
+                    <div class="container-fluid side-margin">
+                            <a class="navbar-brand side-color-text" href="#">
+                                <img src="/img/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
+                                <strong>WebIN</strong>
+                            </a>
+                            <button class="navbar-toggler side-color-blue float-end" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <i class="fas fa-bars navbar-toggler-icon text-white"></i>
+                            </button>
+                            <div class="collapse navbar-collapse justify-content-end" >
+                                <ul class="navbar-nav  fw-bold">
+                                    <li class="nav-item">
+                                      <a class="nav-link side-color-text" aria-current="page" href="index.html"><i class="fas fa-home me-3"></i>Strona Główna</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link side-color-text" aria-current="page" href="aboutus.html"><i class="fas fa-info me-3"></i>O Nas</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link side-color-text" aria-current="page" href="faq.html"><i class="fas fa-question-circle me-3"></i>FAQ</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link side-color-text" aria-current="page" href="contact.html"><i class="fas fa-address-book me-3"></i>Kontakt</a>
+                                    </li>
+                                </ul>
+                            </div>                        
+                    </div>                
+            </nav>
+        </header>
+        
+        <!-- Modal -->
+        <div class="modal fade side-color-text" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div id="modal1">
+                <div class="modal-dialog m-0 h-100">
+                    <div  class="modal-content h-100">
+                        <div class="modal-header ps-5">
+                        <h5 class="modal-title" id="exampleModalLabel">Menu</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ul>
+                                <li><a href="index.html" class="side-color-text"><i class="fas fa-home me-3"></i>Strona główna</a></li>
+                                <li><a href="aboutus.html" class="side-color-text"><i class="fas fa-info me-3"></i>O nas</a></li>
+                                <li><a href="faq.html" class="side-color-text"><i class="fas fa-question-circle me-3"></i>FAQ</a></li>
+                                <li><a href="contact.html" class="side-color-text"><i class="fas fa-address-book me-3"></i>Kontakt</a></li>
+                            </ul>
+                        </div>    
+                    </div>
+                </div> 
+            </div>         
+        </div>
+        <section id="mainContet">
+            <div class="side-margin">
+                <div class="container">
+                    <div class="welcome-container mt-5 mb-2">
+                        <div class="row">
+                            <div class="welcome-container-title col-12 text-center">
+                                <h1 class="mb-4">Witam na <img id="logo1" src="/img/logo.png" class="d-inline-block align-top" alt=""> <label class="side-color-text fw-bolder">WebIN<label></h1>
+                                
+                                <p class="mb-4 fs-4"> <b class="side-color-text">WebIN</b> to mój autorski projekt dla osób zainteresowanych tematyką sieci komputerowych.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about">
+            <div class="">
+                <div class="information-container mt-5">
+                    <div class="row ms-0 me-0">
+                        <div class="col-12 text-center m-auto my-5">
+                            <h2 class="para-title w-25 m-auto my-5"> Co tutaj możesz znaleźć?</h2>
+                        </div>
+                        <div class="col-6 bg-white side-color-text">
+                            <h3 class="text-center my-5 fw-bolder"><i class="fas fa-book-open me-3"></i>Teorie:</h3>
+                            <div class="col-12 col-md-6 m-auto ">
+                                <ul class="fs-5" id="theory">
+                                    <li class="py-1 "><a href="#" class="side-color-text"><i class="fas fa-star me-3"></i>Czym jest adres IP</a></li>
+                                    <li class="py-1"><a href="#" class="side-color-text"><i class="fas fa-star me-3"></i>Polecenie ipconfig</a></li>
+                                    <li class="py-1"><a href="#" class="side-color-text"><i class="fas fa-star me-3"></i>Co to jest FTP</a></li>
+                                    <li class="py-1"><a href="#" class="side-color-text"><i class="fas fa-star me-3"></i>Co oznacza HTML</a></li>
+                                    <li class="py-1"><a href="#" class="side-color-text"><i class="fas fa-star me-3"></i>Narzędzia sieciowe</a></li>
+                                    <li class="py-1"><a href="#" class="side-color-text"><i class="fas fa-star me-3"></i>Co to jest skrętka</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-6 side-color-blue text-white">
+                            <h3 class="text-center my-5 fw-bolder"><i class="fas fa-user-ninja me-3"></i>Praktyke:</h3>
+                            <div class="col-12 col-md-6 m-auto ">
+                                <ul class="fs-5" id="practice">
+                                    <li class="py-1 text-white"><a href="#"><i class="fas fa-star me-3"></i>Ustawienia DHCP</a></li>
+                                    <li class="py-1"><a href="#"><i class="fas fa-star me-3"></i>Jak zarobić skrętke</a></li>
+                                    <li class="py-1"><a href="#"><i class="fas fa-star me-3"></i>Obsługa WPS</a></li>
+                                    <li class="py-1"><a href="#"><i class="fas fa-star me-3"></i>Konfiguracja routera</a></li>
+                                    <li class="py-1"><a href="#"><i class="fas fa-star me-3"></i>Obsługa CPT</a></li>
+                                    <li class="py-1"><a href="#"><i class="fas fa-star me-3"></i>Program Wireshark</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="my-5">
+            <div class="side-margin">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 text-center m-auto my-5">
+                            <h2 id="aktual" class="para-title w-50 m-auto my-5 "> Ostatnie Opublikowane:</h2>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-2">
+                            <div class="card border-0 rounded">
+                                <a href="#"><img src="/img/wzmacniacz.jpg" class="card-img-top img-height" alt="Przykladowy obrazek"></a>
+                                <div class="card-body side-color-blue2 img-title-height">
+                                    <p class="text-right px-2 pb-2 pt-4"><a href="#">Test nowego wzmacniacza Xiaomi, co mozemy o nim powiedzieć?</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-5">
+                            <div class="card border-0 rounded">
+                                <a href="#"><img src="/img/skretka.jpg" class="card-img-top img-height" alt="Przykladowy obrazek"></a>
+                                <div class="card-body side-color-blue2 img-title-height pb-2">
+                                    <p class="text-right px-2 pt-4"><a href="#">Przygotuj sam swoje własne kable sieciowe, czyli co z tą skrętką.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-5">
+                            <div class="card border-0 rounded">
+                                <a href="#"><img src="/img/topologiaGwiazdy.jpg" class="card-img-top img-height" alt="Przykladowy obrazek"></a>
+                                <div class="card-body side-color-blue2 img-title-height pb-2">
+                                    <p class="text-right px-2 pt-4"><a href="#">Topologia gwiazdy, czyli połączenie w jeden punkt, tzw. punkt dostępu.</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-4 col-lg-3 mb-5">
+                            <div class="card border-0 rounded">
+                                <a href="#"><img src="/img/website.jpg" class="card-img-top img-height" alt="Przykladowy obrazek"></a>
+                                <div class="card-body side-color-blue2 img-title-height pb-2">
+                                    <p class="text-right px-2 pt-4"><a href="#">Zaczynamy naukę HTML, czyli czy HTML to język programowania?</a></p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer id="footer1" class="pt-0 pb-0">
+            <div class="side-color-blue">
+                <div class="side-margin">
+                    <div class="container">
+                        <div class="row pt-3 pb-5">
+                                <div class="col-6 col-md-3 m-auto py-4">
+                                    <ul id="footer-left">
+                                        <li class="mb-4"><h5>Podstrony</h5></li>
+                                        <li ><a href="index.html"><i class="fas fa-home me-3"></i>Strona Główna</a></li>
+                                        <li class="color-gray"><a href="aboutus.html"><i class="fas fa-info me-3"></i>O nas</a></li>
+                                        <li class="color-gray"><a href="faq.html"><i class="fas fa-question-circle me-3"></i>FAQ</a></li>
+                                        <li class="color-gray"><a href="contact.html"><i class="fas fa-address-book me-3"></i>Kontakt</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6 col-md-3 m-auto py-4">
+                                    <ul id="footer-right">
+                                        <li class="mb-4"><h5>Kontakt</h5></li>
+                                        <li><br></li>
+                                        <li class="text-white"><i class="fas fa-city me-3"></i>Bielsko Biala</li>
+                                        <li class="text-white"><i class="fas fa-street-view me-3"></i>Willowa 2</li>
+                                        <li class="text-white"><i class="fas fa-location-arrow me-3"></i>43-300</li>
+                                    </ul>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="side-color-blue2">
+                <div class="side-margin">
+                    <div class="container">
+                        <div class="col-12">
+                            <p class="text-center py-5 m-0">
+                               Projekt stworzony przez Jakub Hoczek
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>  
+    <script src="js/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>

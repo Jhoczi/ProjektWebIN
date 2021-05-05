@@ -1,0 +1,256 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body
+{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+a
+{
+    /* color: #279acf; */
+    color:#fff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color:#279acf;
+}
+
+a:visited
+{
+    color:#fff;
+}
+
+ul
+{
+    list-style:none;
+}
+
+#logo1
+{
+    width:30px;
+    height:30px;
+}
+
+#about
+{
+    margin-top:15rem;
+}
+
+#mainContainer
+{
+    background-image: url('/img/bgS.jpg');
+    /* background-repeat: no-repeat; */
+    padding-top:0px;
+    padding-bottom:0px;
+    
+}
+
+#mainContet
+{
+    margin-top:18rem;
+}
+
+#modal1
+{
+    display: block;
+    position:absolute;
+    z-index:2137;
+    width:90%;
+    max-width:90% !important;
+    height:100%;
+    right:0;
+    top:0;
+    font-size:18px;
+}
+
+#modal1 div
+{
+    background-color:#fff;
+}
+
+#theory,#practice
+{
+    /* margin-left:150px; */
+    padding-bottom:150px;
+    padding-top:50px;
+}
+
+#theory li,#practice li
+{
+    margin-bottom:5px;
+    font-size:13px;
+}
+
+#footer-left li,#footer-right li
+{
+    margin-bottom:10px;
+}
+
+#footer1
+{
+    margin-top:200px;
+}
+
+#aboutme
+{
+    font-size:15px !important;
+    text-align: left;
+}
+
+#small-hidden
+{
+        display:none !important;
+}
+
+#big-hidden
+{
+        display:block !important;
+}
+
+.side-margin
+{
+    margin-left:0%;
+    margin-right:0%;
+}
+
+.mainHeaderSection
+{
+    background-color:#fff;
+}
+
+.color-gray
+{
+    color:#ffffffc4
+}
+
+.side-color-text
+{
+    color: #279acf !important; 
+}
+
+.side-color-blue
+{
+    background-color:#279acf;
+}
+
+.side-color-blue2
+{
+    background-color:#1e6c91;
+}
+
+.para-title
+{
+    border-left:5px solid transparent;
+    padding-left:5px;
+    border-color:#279acf;
+    background-color:#0c4763;
+    padding-bottom:10px;
+    padding-top:10px;
+    width:60% !important;
+    font-size:24px;
+}
+
+.information-container
+{
+    margin-bottom:100px;
+}
+
+.img-height
+{
+    /* You can set the dimensions to whatever you want */
+    height: 130px;
+    object-fit: cover;
+}
+
+.img-title-height
+{
+    height:140px !important;
+}
+
+.card-body
+{
+    box-shadow: 0 0 20px 7px rgba(243, 241, 241, 0.253);
+    font-weight:700;
+    font-size:15px;
+    margin-top:auto;
+}
+
+.test
+{
+    background-color:red;
+}
+
+@media (min-width: 900px) {
+    .side-margin
+    {
+    margin-left:10%;
+    margin-right:10%;
+    }
+
+    #logo1
+    {
+    width:50px;
+    height:50px;
+    }
+
+    .img-height
+    {
+    /* You can set the dimensions to whatever you want */
+    height: 230px;
+    object-fit: cover;
+    }
+
+    .img-title-height
+    {
+        height:140px !important;
+    }
+
+    .para-title
+    {
+        border-left:5px solid transparent;
+        padding-left:5px;
+        border-color:#279acf;
+        background-color:#0c4763;
+        padding-bottom:10px;
+        padding-top:10px;
+        width:25% !important;
+    }
+
+    #theory li,#practice li
+    {
+        margin-bottom:20px;
+        font-size:24px;
+    }
+
+    
+    #aboutme
+    {
+        font-size:22px !important;
+        text-align: left;
+    }
+
+    #myavatar
+    {
+        width:220px;
+    }
+
+    #map
+    {
+        width:400px;
+    }
+
+    #small-hidden
+    {
+        display:block !important;
+    }
+
+    #big-hidden
+    {
+        display:none !important;
+    }
+
+}
